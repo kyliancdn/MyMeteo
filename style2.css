@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#current {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-bottom: 4rem;
+}
+
+#current h1 {
+    font-size:5em;
+}
+
+#current i.wi {
+    font-size: 6em;
+}
+
+#current h2 {
+    font-size: 4em;
+}
+
+#prediction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#prediction div {
+    margin-inline: 3rem;
+}
+
+#prediction h1 {
+    font-size:2em;
+}
+
+#prediction i.wi {
+    font-size: 4em;
+}
+
+#prediction h2 {
+    font-size: 2em;
+}
+
+#pays {
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
